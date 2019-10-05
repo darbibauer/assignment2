@@ -1,0 +1,52 @@
+(a)	Enumerating objects: 9, done.
+	Counting objects: 100% (9/9), done.
+	Delta compression using up to 8 threads
+	Compressing objects: 100% (5/5), done.
+	Writing objects: 100% (7/7), 718 bytes | 718.00 KiB/s, done.
+	Total 7 (delta 2), reused 0 (delta 0)
+	remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+	To github.com:darbibauer/assignment2.git
+   	   f4975e5..f13eda0  master -> master
+
+(b)	9; git shortlog -s -n
+
+(c)	Wed Sep 25 18:13:30 2019 -0400; git log .gitignore
+
+(d)	One reason to use branches is to retain the original master version. If you update
+ 	the master and break it, you no longer have your previous working version. Another
+ 	reason to use branches is to avoid breaking other people's code while you're both
+ 	working on the same project. If you change the master and multiple people are
+ 	working on one repository, your changes could break their code.
+
+(e)	Git status shows the current state of your working directory while git log shows a
+	record of every commit in the repository's history.
+
+(f)	git log --follow -- Vehicle.h
+
+(g)	git log --grep='file'
+
+(h)	(I)	In object oriented programming, inheritance is a concept by which one class
+		inherits the member data and methods from another class. The parent class
+		possesses the original member data and methods, and the child class 
+		inherits them.
+
+	(II)	Polymorphism is a concept by which different classes can be passed through
+		the same methods. For example, if a function is expecting a parameter of 
+		type Animal, an object of type Dog, which is an instance of Animal, can 
+		be passed.
+
+	(III)	Encapsulation refers to when you put all related member data and methods
+		in one class. When you do this, you "encapsulate" it with the class. 
+
+(i)	There are two main differences between the "Dictator and Lieutenants" workflow
+	and the "Integration manager" workflow. The first is that in the "Integration 
+	manager" layout, each developer has two repositories (public and private). In
+	the "Dictator and Lieutenants" layout, each developer only has one repository.
+	The other difference between these workflows is the existence of the Lieutenants.
+	The Lieutenants add an extra step. They monitor the developers' code before it is
+	finally passed onto the Dictators.
+
+(j)	Having the Lieutenants to oversee code in chunks instead of all at once would
+	save a lot of time. If every one of the 100 developers merged their code at 
+	the same time, it would be a painstaking process to make sure they all work
+	cohesively. 
