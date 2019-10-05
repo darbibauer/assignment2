@@ -49,4 +49,15 @@
 (j)	Having the Lieutenants to oversee code in chunks instead of all at once would
 	save a lot of time. If every one of the 100 developers merged their code at 
 	the same time, it would be a painstaking process to make sure they all work
-	cohesively. 
+	cohesively.
+
+
+5.	Firstly, the Driving simulator is using polymorphism. For each class, we overwrite
+	inherited functions from the parents to perform differently for the child. For example,
+	in each class, we change the toString function from the parent class to work 
+	specifically for each child class. Additionally, the child classes are all instances
+	of their parents. A Bicycle object is an instance of a Vehicle, while a Jet object
+	is an instance of a PoweredVehicle. The Driving simulator is also implementing 
+	encapsulation. In the header files, member data is declared as protected or private
+	whereas the member functions are declared as public. This protects each object's 
+	member data, or encapsulates it.   
